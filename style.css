@@ -1,0 +1,156 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(255, 239, 208,.5);
+}
+@font-face {
+    font-family: Heads;
+    src: url(Fonts/trotes-font/Trotes-7B4mP.ttf);
+}
+/* Header Naviagtion bar section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(139, 94, 59);
+    height: 3.5rem;
+    padding: 1.2rem;
+}
+.header h2 {
+    color: white;
+    font-family: Heads;
+}
+
+.header .right-side-items a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.bg {
+    width: 100vw;
+    height: 50rem;
+    background-image: url(Images/cf\ bg.jpg);
+}
+
+.bg h1 {
+    font-family: Heads;
+    font-size: 3rem;
+}
+/* Welcome message section */
+
+/* Make all the elements in center */
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 6rem; */
+   
+}
+.Welcome-Msg h2, p {
+    display: flex;
+    justify-content: center;
+    color: rgb(139, 94, 59);
+    
+}
+
+.exclusive-for-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* make style to the button */
+.exclusive-for-btn button{
+    background-color:rgb(207, 160, 122) ;
+    border: none;
+    width: fit-content;
+    box-sizing: border-box;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+
+.exclusive-for-btn button a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.exclusive-for-btn button {
+    transition-duration: 0.3s;
+}
+
+/* adding hover effects in button */
+.exclusive-for-btn button:hover {
+   background-color:rgb(139 94 59);
+   transition-duration: .3s;
+}
+
+button{
+    margin-bottom: 5rem;
+}
+
+.Menu-Card {
+    margin: 10px;
+    color: rgb(92, 61, 46);
+
+    /* display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+#ourmenu,#aboutus, #contactus {
+    color: rgb(92, 61, 46);
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+.menu-items {
+    background-color: white;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.About-Section p {
+    text-align: center;
+}
+.Contact-Section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-Section .inputGet {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.Contact-Section button {
+    cursor: pointer;
+}
+
+.Footer {
+    background-color: rgb(139, 94, 59);
+    height: 3.5rem;
+    padding: 1.2rem;
+}
+.Footer p {
+    color: white;
+}
